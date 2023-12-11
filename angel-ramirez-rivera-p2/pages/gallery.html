@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link href="/css/style.css" rel="stylesheet">
+        <title>Project 2</title>
+        <script src="/js/scripts.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="/index.html" class="active">Home</a></li>
+                    <li><a href="/pages/info.html">About Us</a></li>
+                    <li><a href="/pages/membership.html">Membership Info</a></li>
+                    <li><a href="/pages/gallery.html">Gallery</a></li>
+                    <li><a href="/pages/contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+           <div class="gallery">
+            <img src="/images/gallery/danielle-cerullo-CQfNt66ttZM-unsplash.jpg" alt="pic1" class="model-1">
+            <img src="/images/gallery/samuel-girven-fqMu99l8sqo-unsplash.jpg" alt="pic2" class="model-2" >
+            <img src="/images/gallery/rodrigo-s-2mz9IKab7DE-unsplash.jpg" alt="pic3" class="model-3" >
+            <img src="/images/gallery/samuel-girven-2e4lbLTqPIo-unsplash.jpg" alt="pic4" class="model-4" >
+            <img src="/images/gallery/samuel-girven-BBR_zigEmyQ-unsplash.jpg" alt="pic5" class="model-5">
+            <img src="/images/gallery/mike-cox-06EpjZiMz_E-unsplash.jpg" alt="pic6" class="model-6" >
+           </div>
+            <aside class="side-form">
+                    <h3 id="form-h3" class="form-h3">See you soon!</h3>
+                    <div class="container">
+                        <form>
+                            <div class="row">
+                                <div class="col-25">
+                                    <label>First Name</label>
+                                </div>
+                                <div>
+                                    <input type="text" id="fname" name="firstname" placeholder="Your first name...">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-25">
+                                    <label>Last Name</label>
+                                </div>
+                                <div>
+                                    <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-25">
+                                    <label>Email</label>
+                                </div>
+                                <div>
+                                    <input type="text" id="email" name="email" placeholder="Your email...">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-25">
+                                  <label for="country">Locations</label>
+                                </div>
+                                <div class="col-75">
+                                  <select id="country" name="country">
+                                    <option>Select Location</option>
+                                    <option value="chattanooga">Chattanooga</option>
+                                <option value="nashville">Nashville</option>
+                                <option value="moorseville">Moorseville</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-25">
+                                  <label for="subject">Subject</label>
+                                </div>
+                                <div class="col-75">
+                                  <textarea id="subject" name="subject" placeholder="Tell us a bit about you..."></textarea>
+                                </div>
+                              </div>
+                              <br>
+                              <div class="row">
+                                <input type="submit" value="Submit">
+                              </div>
+                        </form>
+                    </div>
+            </aside>
+        </main>
+        <footer>
+            <p>Contact us @ <a>(123)456-7890</a></p>
+        </footer>
+    </body>
+</html>

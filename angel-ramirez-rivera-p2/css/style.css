@@ -1,0 +1,365 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100%;
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    word-spacing: 1px;
+    text-align: justify;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color:teal;
+    overflow: hidden;
+    position: sticky;
+    top: 0%;
+    width: 100%;
+}
+
+li { 
+ float: left;
+}
+
+.membership-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.membership-ul {
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+    width: 80%;
+    justify-content: center;
+    background-color: white;
+    padding: 0%;
+}
+
+li a {
+    display: block;
+    color: azure;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: gray;
+}
+
+.active {
+    background-color: rgb(5, 120, 120);
+}
+
+footer {
+    background-color: teal;
+    color: azure;
+    margin-top: 10%;
+    text-align: center;
+    padding: 10px 10px;
+    position: relative;
+    bottom: 0%;
+    width: 100%;
+}
+
+.title {
+    display: flex;
+    margin-left: 10%;
+    color: teal;
+    flex: auto;
+}
+
+.header {
+    width:60%;
+}
+
+aside {
+    float: right;
+    border: solid black 1px;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 10px;
+    overflow: hidden;
+    position: absolute;
+    top: 10%;
+    right: 1%;
+    border: 2px solid teal;
+    flex: 30%;
+}
+
+input[type=text], select, textarea {
+    width: 90%;
+    padding: 10px;
+    border: 2px solid teal;
+    border-radius: 5px;
+    resize: vertical;
+    margin: 2%;
+}
+
+label {
+    padding: 10px 10px 0px;
+}
+
+input[type=submit] {
+    background-color: teal;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: dimgrey;
+}
+
+.container {
+    padding: 20px;
+}
+
+.container-contact {
+    padding: 20px;
+    border: 2px solid teal;
+    border-radius: 20px;
+    width: 50%;
+}
+
+.container-main {
+    width:80%;
+    text-align:left;
+    margin: 1%;
+    flex: auto;
+}  
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex: 50%;
+    width: 75%;
+    margin-left: 2%;
+}
+
+#main-form {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+#main-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0%;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.col-25 {
+    flex: 15%;
+}
+
+.col-75 {
+    flex: 80%;
+}
+
+.input {
+    flex: 80%;
+}
+
+h1 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: fit-content;
+}
+
+h2 {
+    margin-left: 2%;
+}
+
+h3 {
+    margin-left: 2%;
+}
+
+h6 {
+    font-size: 100%;
+}
+
+.form-h3 {
+    margin-left: 30%;
+    width: fit-content;
+}
+
+.membership-h2 {
+    margin-left: 0%;
+    font-size: large;
+}
+
+.membership-h3 {
+    margin-left: 0%;
+    font-size: large;
+}
+
+.membership-h4 {
+    margin-left: 0%;
+    font-size: large;
+}
+.membership-h5 {
+    margin-left: 0%;
+    font-size: large;
+}
+
+
+article {
+    margin-right: 2%;
+}
+
+.info-article {
+    margin-left: 4%;
+    margin-right: 8%;
+    width: 70%;
+}
+
+.info-art-1 {
+    width: 90%;
+}
+
+.info-article-2 {
+    margin-right: 2%;
+}
+
+#staff-info {
+    margin-bottom: 2%;
+    text-indent: 0%;
+    width: 80%;
+    
+}
+
+.intro {
+    margin-right: 2%;
+    flex: auto;
+}
+
+#logo {
+    width: 20%;
+    height: auto;
+}
+
+img {
+    border: teal solid 2px;
+    border-radius: 50%;
+    margin-left: 1%;
+    height: auto;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.model-1 {
+    width: 50%;
+    border-radius: 5px;
+    margin: 1%;
+}
+
+.model-2 {
+    width: 50%;
+    border-radius: 5px;
+}
+
+.model-3 {
+    width: 50%;
+    border-radius: 5px;
+    margin: 1%;
+}
+
+.model-4 {
+    width: 50%;
+    border-radius: 5px;
+    margin: 1%;
+}
+
+.model-5 {
+    width: 50%;
+    border-radius: 5px;
+    margin: 1%;
+}
+
+.model-6 {
+    width: 50%;
+    border-radius: 5px;
+    margin: 1%;
+}
+
+#staff-img {
+    width: 15%;
+    height: auto;
+    margin-bottom: 1%;
+    border-radius: 10%;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+#info-h1 {
+    font-size: 200%;
+}
+
+#info-h2 {
+    font-size: 120%;
+    margin: 0%;
+}
+
+#info-h3 {
+    font-size: 120%;
+    margin: 0%;
+}
+
+#info-h4 {
+    font-size: 120%;
+    margin: 0%;
+}
+
+#info-h5 {
+    font-size: 120%;
+    margin: 0%;
+}
+
+#staff-h1{
+   font-size: 220%;
+   margin-left: 30%;
+   margin-bottom: 0%;
+}
+
+#staff-name {
+    font-size: 110%;
+    margin-top: 4%;
+    margin-bottom: 0%;
+}
+
+.info-button {
+    color: white;
+    font-size: 100%;
+    background-color: teal;
+    border-radius: 5px;
+    border: solid teal 1px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

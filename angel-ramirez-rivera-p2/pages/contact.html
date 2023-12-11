@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link href="/css/style.css" rel="stylesheet">
+        <title>Project 2</title>
+        <script src="/js/scripts.js"></script>
+    </head>
+    <body id="body-contact" class="body-contact">
+        <header id="contact-header" class="contact-header">
+            <nav>
+                <ul id="contact-ul" class="contact-ul">
+                    <li><a href="/index.html" class="active">Home</a></li>
+                    <li><a href="/pages/info.html">About Us</a></li>
+                    <li><a href="/pages/membership.html">Membership Info</a></li>
+                    <li><a href="/pages/gallery.html">Gallery</a></li>
+                    <li><a href="/pages/contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main-contact" id="main-contact">
+            <h1 id="main-h1" class="main-h1">See you soon!</h1>
+            <div class="container-contact" id="contact-form">
+                <form id="main-form">
+                    <div class="row" id="contact-row-1">
+                        <div class="col-25">
+                            <label>First Name</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="fname-contact" name="firstname" placeholder="Your first name...">
+                        </div>
+                    </div>
+                    <div class="row" id="contact-row-2">
+                        <div class="col-25">
+                            <label>Last Name</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="lname-contact" name="lastname" placeholder="Your last name...">
+                        </div>
+                    </div>
+                    <div class="row" id="contact-row-3">
+                        <div class="col-25">
+                            <label>Email</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="email-contact" name="email" placeholder="Your email...">
+                        </div>
+                    </div>
+                    <div class="row" id="contact-row-4">
+                        <div class="col-25">
+                          <label for="country">Locations</label>
+                        </div>
+                        <div class="col-75">
+                          <select id="country" name="country">
+                            <option>Select Location</option>
+                            <option value="chattanooga">Chattanooga</option>
+                            <option value="nashville">Nashville</option>
+                            <option value="moorseville">Moorseville</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="row" id="contact-row-5">
+                        <div class="col-25">
+                          <label for="subject">Subject</label>
+                        </div>
+                        <div class="col-75">
+                          <textarea id="subject" name="subject" placeholder="Tell us a bit about you..."></textarea>
+                        </div>
+                      </div>
+                      <br>
+                      <div class="row" id="contact-row-6">
+                        <input type="submit" value="Submit">
+                      </div>
+                </form>
+            </div>
+        </main>
+        <footer>
+            <p>Contact us @ <a>(123)456-7890</a></p>
+        </footer>
+    </body>
+</html>

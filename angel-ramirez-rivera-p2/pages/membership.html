@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link href="/css/style.css" rel="stylesheet">
+        <title>Project 2</title>
+        <script src="/js/scripts.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="/index.html" class="active">Home</a></li>
+                    <li><a href="/pages/info.html">About Us</a></li>
+                    <li><a href="/pages/membership.html">Membership Info</a></li>
+                    <li><a href="/pages/gallery.html">Gallery</a></li>
+                    <li><a href="/pages/contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="membership-container">
+                <h1 class="membership-h1">Gym Membership Options:</h1>
+                <ul class="membership-ul">
+                    <li class="basic-membership">
+                        <h2 class="membership-h2">Basic Membership:</h2>
+                        <p>
+                            Access to the gym facilities during regular hours.
+                            Standard use of equipment, cardio machines, and group classes.
+                            Ideal for individuals looking for a straightforward fitness experience.
+                        </p>
+                    </li>
+                    <li class="premium-membership">
+                        <h3 class="membership-h3">Premium Membership:</h3>
+                        <p>
+                            Extended access, including early morning and late-night hours.
+                            Access to specialized equipment and advanced fitness classes.
+                            Personalized fitness assessments and goal-setting sessions.
+                        </p>
+                    </li>
+                    <li class="vip-membership">
+                        <h4 class="membership-h4">VIP Membership:</h4>
+                        <p>
+                            24/7 access to the gym, providing maximum flexibility.
+                            Exclusive access to VIP areas, premium amenities, and advanced fitness programs.
+                            Priority booking for personal training sessions and workshops.
+                        </p>
+                    </li>
+                    <li class="membership-discount">
+                        <h5 class="membership-h5">Discount Programs for Special Groups:</h5>
+                            
+                            <article>
+                                <h6>Student Discount:</h6>
+                                Recognizing the importance of a healthy lifestyle for students, we offer an exclusive discount on gym memberships.
+                                Students with a valid school ID or university enrollment verification can enjoy 20% off their selected membership plan.
+                                Stay fit while balancing academics and enjoy the benefits of a supportive fitness community.
+                            </article>
+                           
+                            <article>
+                                <h6>First Responders Discount:</h6>
+                                We extend our gratitude to the brave first responders in our community by offering a special discount on all membership tiers.
+                                First responders, including police, firefighters, and emergency medical personnel, can enjoy 50% off their monthly or annual membership fees.
+                                To claim the discount, simply present valid identification or proof of service during the sign-up process.
+                            </article>
+                            
+                            <article>
+                                <h6>Military Discount:</h6>
+                                We salute the dedication and sacrifice of our military personnel by providing a special discount on memberships.
+                                Active-duty military members, veterans, and their families can avail themselves of 50% off their chosen membership tier.
+                                Show your military ID or other valid proof of service to unlock this discount and embark on your fitness journey with us.
+                                At [Gym Name], we believe that everyone deserves access to a fitness community that supports their well-being. 
+                                These discount programs are our way of expressing gratitude to those who serve our community and country. 
+                                Join us and experience fitness with purpose, inclusivity, and support.
+                            </article>
+                    </li>
+                </ul>
+            </div>
+            <aside class="side-form">
+                    <h3 id="form-h3" class="form-h3">See you soon!</h3>
+                    <div class="container">
+                        <form>
+                            <div class="row">
+                                <div class="col-25">
+                                    <label>First Name</label>
+                                </div>
+                                <div>
+                                    <input type="text" id="fname" name="firstname" placeholder="Your first name...">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-25">
+                                    <label>Last Name</label>
+                                </div>
+                                <div>
+                                    <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-25">
+                                    <label>Email</label>
+                                </div>
+                                <div>
+                                    <input type="text" id="email" name="email" placeholder="Your email...">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-25">
+                                  <label for="country">Locations</label>
+                                </div>
+                                <div class="col-75">
+                                  <select id="country" name="country">
+                                    <option>Select Location</option>
+                                    <option value="chattanooga">Chattanooga</option>
+                                    <option value="nashville">Nashville</option>
+                                    <option value="moorseville">Moorseville</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-25">
+                                  <label for="subject">Subject</label>
+                                </div>
+                                <div class="col-75">
+                                  <textarea id="subject" name="subject" placeholder="Tell us a bit about you..."></textarea>
+                                </div>
+                              </div>
+                              <br>
+                              <div class="row">
+                                <input type="submit" value="Submit">
+                              </div>
+                        </form>
+                    </div>
+            </aside>
+        </main>
+        <footer>
+            <p>Contact us @ <a>(123)456-7890</a></p>
+        </footer>
+    </body>
+</html>
